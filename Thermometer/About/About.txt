@@ -1,0 +1,16 @@
+ 	
+	embedXcode
+	embedXcode+
+	----------------------------------
+	Embedded Computing on Xcode
+	
+	
+	© Rei VILO, 2010-2014
+	All rights reserved	
+	http://embedXcode.weebly.com/
+	
+	
+embedXcode  • Oct 22, 2014 release 214 • Support for Freedom KL25Z
+embedXcode+ • Oct 22, 2014 release 215 • Autonomous boards configuration files
+	
+	
