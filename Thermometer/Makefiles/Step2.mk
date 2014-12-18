@@ -256,8 +256,10 @@ endif
 
 ifndef F_CPU
     F_CPU = $(call PARSE_BOARD,$(BOARD_TAG),build.f_cpu)
+
 endif
 
+#$(shell echo  $(F_CPU))
 
 # Rules
 # ----------------------------------

@@ -25,6 +25,10 @@
  This example code is in the public domain.
  
  */
+#ifndef F_CPU
+#define F_CPU 8000000UL
+#endif
+
 #include <SoftwareSerial.h>
 #include <Narcoleptic.h>
 SoftwareSerial xbee(6, 7); // RX, TX
@@ -55,20 +59,35 @@ float readTemp() {
 void setup()
 {
     // Open serial communications and wait for port to open:
-    Serial.begin(9600);
+    //Serial.begin(9600);
     // set the data rate for the SoftwareSerial port
     xbee.begin(9600);
+    pinMode(8, OUTPUT);
 }
 
+void sendMessage(float temp) {
+    xbee.print(F("{1;1;"));
+    xbee.print(temp);
+    xbee.print(F("}"));
+}
+bool diodeOn = false;
 
 void loop() // run over and over
 {
     tempInC = readTemp();
-    Serial.println("Temperature read:");
-    Serial.println(tempInC);
-    if(tempInC != INVALID_TEMP && tempInC < 40 && tempInC > -40) {
-        xbee.print(tempInC);
+    //Serial.println("Temperature read:");
+    //Serial.println(tempInC++);
+    sendMessage(tempInC);
+    if(diodeOn == true) {
+        digitalWrite(8, LOW);
+        diodeOn = false;
+    } else {
+        digitalWrite(8,HIGH);
+        diodeOn = true;
     }
+    //if(tempInC != INVALID_TEMP && tempInC < 40 && tempInC > -40) {
+        //xbee.print(tempInC);
+    //}
     //Narcoleptic.delay(1000);
     delay(1000);
 }
