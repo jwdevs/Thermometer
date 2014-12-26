@@ -1389,6 +1389,168 @@
 		AAAA141023203826AA00037D /* TSIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSIC.h; sourceTree = "<group>"; };
 		AAAA141023203826AA00037F /* XBee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XBee.cpp; sourceTree = "<group>"; };
 		AAAA141023203826AA000380 /* XBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBee.h; sourceTree = "<group>"; };
+		EFCD87031A44D73A00E036A4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EFCD87041A44D73A00E036A4 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		EFCD87051A44D73A00E036A4 /* Doxylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doxylogo.png; sourceTree = "<group>"; };
+		EFCD87061A44D73A00E036A4 /* Doxymods.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Doxymods.css; sourceTree = "<group>"; };
+		EFCD870A1A44D73A00E036A4 /* test1.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.ino; sourceTree = "<group>"; };
+		EFCD870C1A44D73A00E036A4 /* test2.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.ino; sourceTree = "<group>"; };
+		EFCD870F1A44D73A00E036A4 /* accel2125_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = accel2125_demo.ino; sourceTree = "<group>"; };
+		EFCD87111A44D73A00E036A4 /* analog_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analog_demo.ino; sourceTree = "<group>"; };
+		EFCD87121A44D73A00E036A4 /* analog_demo.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analog_demo.tcl; sourceTree = "<group>"; };
+		EFCD87141A44D73A00E036A4 /* bandgap.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bandgap.ino; sourceTree = "<group>"; };
+		EFCD87161A44D73A00E036A4 /* blink_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_demo.ino; sourceTree = "<group>"; };
+		EFCD87181A44D73A00E036A4 /* blink_ports.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_ports.ino; sourceTree = "<group>"; };
+		EFCD871A1A44D73A00E036A4 /* blink_recv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_recv.ino; sourceTree = "<group>"; };
+		EFCD871C1A44D73A00E036A4 /* blink_serial.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_serial.ino; sourceTree = "<group>"; };
+		EFCD871E1A44D73A00E036A4 /* blink_timers.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_timers.ino; sourceTree = "<group>"; };
+		EFCD87201A44D73A00E036A4 /* blink_xmit.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blink_xmit.ino; sourceTree = "<group>"; };
+		EFCD87221A44D73A00E036A4 /* bmp085demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bmp085demo.ino; sourceTree = "<group>"; };
+		EFCD87241A44D73A00E036A4 /* bmp085recv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bmp085recv.ino; sourceTree = "<group>"; };
+		EFCD87261A44D73A00E036A4 /* button_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = button_demo.ino; sourceTree = "<group>"; };
+		EFCD87281A44D73A00E036A4 /* colorDemo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colorDemo.ino; sourceTree = "<group>"; };
+		EFCD872A1A44D73A00E036A4 /* combi_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = combi_demo.ino; sourceTree = "<group>"; };
+		EFCD872C1A44D73A00E036A4 /* compass_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compass_demo.ino; sourceTree = "<group>"; };
+		EFCD872E1A44D73A00E036A4 /* dcf77demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dcf77demo.ino; sourceTree = "<group>"; };
+		EFCD87301A44D73A00E036A4 /* dcmotor_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dcmotor_demo.ino; sourceTree = "<group>"; };
+		EFCD87321A44D73A00E036A4 /* dht_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dht_demo.ino; sourceTree = "<group>"; };
+		EFCD87341A44D73A00E036A4 /* dimmer_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dimmer_demo.ino; sourceTree = "<group>"; };
+		EFCD87361A44D73A00E036A4 /* eemem.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eemem.ino; sourceTree = "<group>"; };
+		EFCD87381A44D73A00E036A4 /* expander.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expander.ino; sourceTree = "<group>"; };
+		EFCD873A1A44D73A00E036A4 /* glcd_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glcd_demo.ino; sourceTree = "<group>"; };
+		EFCD873C1A44D73A00E036A4 /* digits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digits.h; sourceTree = "<group>"; };
+		EFCD873D1A44D73A00E036A4 /* glcdClock.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glcdClock.ino; sourceTree = "<group>"; };
+		EFCD873F1A44D73A00E036A4 /* glcdTracer.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glcdTracer.ino; sourceTree = "<group>"; };
+		EFCD87411A44D73A00E036A4 /* gravity_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gravity_demo.ino; sourceTree = "<group>"; };
+		EFCD87421A44D73A00E036A4 /* gravity_demo.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gravity_demo.tcl; sourceTree = "<group>"; };
+		EFCD87441A44D73A00E036A4 /* h48c_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = h48c_demo.ino; sourceTree = "<group>"; };
+		EFCD87461A44D73A00E036A4 /* heading_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heading_demo.ino; sourceTree = "<group>"; };
+		EFCD87481A44D73A00E036A4 /* highside.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = highside.ino; sourceTree = "<group>"; };
+		EFCD87491A44D73A00E036A4 /* highside.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = highside.tcl; sourceTree = "<group>"; };
+		EFCD874B1A44D73A00E036A4 /* hm55b_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hm55b_demo.ino; sourceTree = "<group>"; };
+		EFCD874D1A44D73A00E036A4 /* indoor.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = indoor.ino; sourceTree = "<group>"; };
+		EFCD874F1A44D73A00E036A4 /* input_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_demo.ino; sourceTree = "<group>"; };
+		EFCD87511A44D73A00E036A4 /* ir_recv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ir_recv.ino; sourceTree = "<group>"; };
+		EFCD87531A44D73A00E036A4 /* ir_recv_irq.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ir_recv_irq.ino; sourceTree = "<group>"; };
+		EFCD87551A44D73A00E036A4 /* ir_repeater.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ir_repeater.ino; sourceTree = "<group>"; };
+		EFCD87571A44D73A00E036A4 /* isp_capture.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isp_capture.ino; sourceTree = "<group>"; };
+		EFCD87591A44D73A00E036A4 /* isp_flash.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isp_flash.ino; sourceTree = "<group>"; };
+		EFCD875B1A44D73A00E036A4 /* ATmegaBOOT_168_atmega328.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ATmegaBOOT_168_atmega328.hex; sourceTree = "<group>"; };
+		EFCD875C1A44D73A00E036A4 /* Blink.cpp.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blink.cpp.hex; sourceTree = "<group>"; };
+		EFCD875D1A44D73A00E036A4 /* data_blink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_blink.h; sourceTree = "<group>"; };
+		EFCD875E1A44D73A00E036A4 /* data_rf12demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_rf12demo.h; sourceTree = "<group>"; };
+		EFCD875F1A44D73A00E036A4 /* hex2c.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hex2c.tcl; sourceTree = "<group>"; };
+		EFCD87601A44D73A00E036A4 /* isp_prepare.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isp_prepare.ino; sourceTree = "<group>"; };
+		EFCD87611A44D73A00E036A4 /* opti_blink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opti_blink.h; sourceTree = "<group>"; };
+		EFCD87621A44D73A00E036A4 /* opti_rf12demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opti_rf12demo.h; sourceTree = "<group>"; };
+		EFCD87631A44D73A00E036A4 /* optiboot_atmega328.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = optiboot_atmega328.hex; sourceTree = "<group>"; };
+		EFCD87641A44D73A00E036A4 /* optiboot_atmega328_1s.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = optiboot_atmega328_1s.hex; sourceTree = "<group>"; };
+		EFCD87651A44D73A00E036A4 /* RF12demo.cpp.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RF12demo.cpp.hex; sourceTree = "<group>"; };
+		EFCD87671A44D73A00E036A4 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		EFCD87681A44D73A00E036A4 /* isp_repair.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isp_repair.ino; sourceTree = "<group>"; };
+		EFCD876A1A44D73A00E036A4 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		EFCD876B1A44D73A00E036A4 /* isp_repair2.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isp_repair2.ino; sourceTree = "<group>"; };
+		EFCD876D1A44D73A00E036A4 /* lcd_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcd_demo.ino; sourceTree = "<group>"; };
+		EFCD876F1A44D73A00E036A4 /* lipoVolt.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lipoVolt.ino; sourceTree = "<group>"; };
+		EFCD87711A44D73A00E036A4 /* lux_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lux_demo.ino; sourceTree = "<group>"; };
+		EFCD87731A44D73A00E036A4 /* lux_poweroff.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lux_poweroff.ino; sourceTree = "<group>"; };
+		EFCD87751A44D73A00E036A4 /* memory_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memory_demo.ino; sourceTree = "<group>"; };
+		EFCD87771A44D73A00E036A4 /* nunchuk_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nunchuk_demo.ino; sourceTree = "<group>"; };
+		EFCD87791A44D73A00E036A4 /* opto_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opto_demo.ino; sourceTree = "<group>"; };
+		EFCD877B1A44D73A00E036A4 /* output_stepper.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output_stepper.ino; sourceTree = "<group>"; };
+		EFCD877D1A44D73A00E036A4 /* parser_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = parser_demo.ino; sourceTree = "<group>"; };
+		EFCD877F1A44D73A00E036A4 /* pir_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pir_demo.ino; sourceTree = "<group>"; };
+		EFCD87811A44D73A00E036A4 /* powerdown_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = powerdown_demo.ino; sourceTree = "<group>"; };
+		EFCD87831A44D73A00E036A4 /* proximity_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = proximity_demo.ino; sourceTree = "<group>"; };
+		EFCD87851A44D73A00E036A4 /* qti_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qti_demo.ino; sourceTree = "<group>"; };
+		EFCD87871A44D73A00E036A4 /* recv433demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recv433demo.ino; sourceTree = "<group>"; };
+		EFCD87891A44D73A00E036A4 /* relay_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = relay_demo.ino; sourceTree = "<group>"; };
+		EFCD878B1A44D73A00E036A4 /* rtc_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rtc_demo.ino; sourceTree = "<group>"; };
+		EFCD878D1A44D73A00E036A4 /* schedule.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schedule.ino; sourceTree = "<group>"; };
+		EFCD878F1A44D73A00E036A4 /* sht11demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sht11demo.ino; sourceTree = "<group>"; };
+		EFCD87911A44D73A00E036A4 /* SMDdemo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMDdemo.ino; sourceTree = "<group>"; };
+		EFCD87931A44D73A00E036A4 /* snapNikon.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snapNikon.ino; sourceTree = "<group>"; };
+		EFCD87951A44D73A00E036A4 /* snoozeBlink.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snoozeBlink.ino; sourceTree = "<group>"; };
+		EFCD87971A44D73A00E036A4 /* thermo_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thermo_demo.ino; sourceTree = "<group>"; };
+		EFCD87991A44D73A00E036A4 /* tiny50hz.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiny50hz.ino; sourceTree = "<group>"; };
+		EFCD879B1A44D73A00E036A4 /* toneGen.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = toneGen.ino; sourceTree = "<group>"; };
+		EFCD879D1A44D73A00E036A4 /* tsl230demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tsl230demo.ino; sourceTree = "<group>"; };
+		EFCD879F1A44D73A00E036A4 /* uart_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uart_demo.ino; sourceTree = "<group>"; };
+		EFCD87A21A44D73A00E036A4 /* announcer.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = announcer.ino; sourceTree = "<group>"; };
+		EFCD87A41A44D73A00E036A4 /* crypRecv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crypRecv.ino; sourceTree = "<group>"; };
+		EFCD87A61A44D73A00E036A4 /* crypSend.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crypSend.ino; sourceTree = "<group>"; };
+		EFCD87A81A44D73A00E036A4 /* emt7110_bridge.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emt7110_bridge.ino; sourceTree = "<group>"; };
+		EFCD87AA1A44D73A00E036A4 /* fs20demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fs20demo.ino; sourceTree = "<group>"; };
+		EFCD87AC1A44D73B00E036A4 /* groupRelay.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = groupRelay.ino; sourceTree = "<group>"; };
+		EFCD87AE1A44D73B00E036A4 /* homePower.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = homePower.ino; sourceTree = "<group>"; };
+		EFCD87B01A44D73B00E036A4 /* jouleTest.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jouleTest.ino; sourceTree = "<group>"; };
+		EFCD87B21A44D73B00E036A4 /* kaku_demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kaku_demo.ino; sourceTree = "<group>"; };
+		EFCD87B41A44D73B00E036A4 /* ledNode.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ledNode.ino; sourceTree = "<group>"; };
+		EFCD87B61A44D73B00E036A4 /* decoders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoders.h; sourceTree = "<group>"; };
+		EFCD87B71A44D73B00E036A4 /* ookRelay2.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ookRelay2.ino; sourceTree = "<group>"; };
+		EFCD87B81A44D73B00E036A4 /* ookRelay2.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ookRelay2.tcl; sourceTree = "<group>"; };
+		EFCD87BA1A44D73B00E036A4 /* ookScope2.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ookScope2.ino; sourceTree = "<group>"; };
+		EFCD87BC1A44D73B00E036A4 /* otRelay.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = otRelay.ino; sourceTree = "<group>"; };
+		EFCD87BE1A44D73B00E036A4 /* p1scanner.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p1scanner.ino; sourceTree = "<group>"; };
+		EFCD87C01A44D73B00E036A4 /* packetBuf.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = packetBuf.ino; sourceTree = "<group>"; };
+		EFCD87C21A44D73B00E036A4 /* pingPong.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pingPong.ino; sourceTree = "<group>"; };
+		EFCD87C41A44D73B00E036A4 /* pollee.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pollee.ino; sourceTree = "<group>"; };
+		EFCD87C61A44D73B00E036A4 /* poller.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poller.ino; sourceTree = "<group>"; };
+		EFCD87C81A44D73B00E036A4 /* powerACS.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = powerACS.ino; sourceTree = "<group>"; };
+		EFCD87CA1A44D73B00E036A4 /* radioBlip.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radioBlip.ino; sourceTree = "<group>"; };
+		EFCD87CB1A44D73B00E036A4 /* radioBlip.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radioBlip.tcl; sourceTree = "<group>"; };
+		EFCD87CD1A44D73B00E036A4 /* radioBlip2.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radioBlip2.ino; sourceTree = "<group>"; };
+		EFCD87CF1A44D73B00E036A4 /* RF12_1byte.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RF12_1byte.ino; sourceTree = "<group>"; };
+		EFCD87D11A44D73B00E036A4 /* rf12cmd.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rf12cmd.ino; sourceTree = "<group>"; };
+		EFCD87D31A44D73B00E036A4 /* dataflash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataflash.h; sourceTree = "<group>"; };
+		EFCD87D41A44D73B00E036A4 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EFCD87D51A44D73B00E036A4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		EFCD87D61A44D73B00E036A4 /* RF12demo.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RF12demo.ino; sourceTree = "<group>"; };
+		EFCD87D71A44D73B00E036A4 /* RF12demo.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RF12demo.tcl; sourceTree = "<group>"; };
+		EFCD87D91A44D73B00E036A4 /* dataflash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataflash.h; sourceTree = "<group>"; };
+		EFCD87DA1A44D73B00E036A4 /* RF12demoBlock.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RF12demoBlock.ino; sourceTree = "<group>"; };
+		EFCD87DC1A44D73B00E036A4 /* rf12serial.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rf12serial.ino; sourceTree = "<group>"; };
+		EFCD87DE1A44D73B00E036A4 /* rf12stream.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rf12stream.ino; sourceTree = "<group>"; };
+		EFCD87E01A44D73B00E036A4 /* RFM12B_OOK.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RFM12B_OOK.ino; sourceTree = "<group>"; };
+		EFCD87E21A44D73B00E036A4 /* rfRangeRX.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rfRangeRX.ino; sourceTree = "<group>"; };
+		EFCD87E41A44D73B00E036A4 /* rfRangeTX.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rfRangeTX.ino; sourceTree = "<group>"; };
+		EFCD87E61A44D73B00E036A4 /* rgbRemote.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rgbRemote.ino; sourceTree = "<group>"; };
+		EFCD87E81A44D73B00E036A4 /* roomNode.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = roomNode.ino; sourceTree = "<group>"; };
+		EFCD87E91A44D73B00E036A4 /* roomNode.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = roomNode.tcl; sourceTree = "<group>"; };
+		EFCD87EB1A44D73B00E036A4 /* slowLogger.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slowLogger.ino; sourceTree = "<group>"; };
+		EFCD87ED1A44D73B00E036A4 /* smaComms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smaComms.h; sourceTree = "<group>"; };
+		EFCD87EE1A44D73B00E036A4 /* smaRelay.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smaRelay.ino; sourceTree = "<group>"; };
+		EFCD87F01A44D73B00E036A4 /* syncRecv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = syncRecv.ino; sourceTree = "<group>"; };
+		EFCD87F21A44D73B00E036A4 /* tickerLed.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tickerLed.ino; sourceTree = "<group>"; };
+		EFCD87F41A44D73B00E036A4 /* timedRecv.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timedRecv.ino; sourceTree = "<group>"; };
+		EFCD87F61A44D73B00E036A4 /* timedSend.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timedSend.ino; sourceTree = "<group>"; };
+		EFCD87F81A44D73B00E036A4 /* tinyTest.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tinyTest.ino; sourceTree = "<group>"; };
+		EFCD87FB1A44D73B00E036A4 /* chiBlink.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chiBlink.ino; sourceTree = "<group>"; };
+		EFCD87FD1A44D73B00E036A4 /* powerUse.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = powerUse.ino; sourceTree = "<group>"; };
+		EFCD87FE1A44D73B00E036A4 /* intro.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = intro.md; sourceTree = "<group>"; };
+		EFCD87FF1A44D73B00E036A4 /* intro_rf12.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = intro_rf12.md; sourceTree = "<group>"; };
+		EFCD88001A44D73B00E036A4 /* JeeLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JeeLib.h; sourceTree = "<group>"; };
+		EFCD88011A44D73B00E036A4 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EFCD88021A44D73B00E036A4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EFCD88031A44D73B00E036A4 /* Ports.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ports.cpp; sourceTree = "<group>"; };
+		EFCD88041A44D73B00E036A4 /* Ports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ports.h; sourceTree = "<group>"; };
+		EFCD88051A44D73B00E036A4 /* PortsBMP085.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PortsBMP085.cpp; sourceTree = "<group>"; };
+		EFCD88061A44D73B00E036A4 /* PortsBMP085.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortsBMP085.h; sourceTree = "<group>"; };
+		EFCD88071A44D73B00E036A4 /* PortsLCD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PortsLCD.cpp; sourceTree = "<group>"; };
+		EFCD88081A44D73B00E036A4 /* PortsLCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortsLCD.h; sourceTree = "<group>"; };
+		EFCD88091A44D73B00E036A4 /* PortsRF12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PortsRF12.cpp; sourceTree = "<group>"; };
+		EFCD880A1A44D73B00E036A4 /* PortsSHT11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PortsSHT11.cpp; sourceTree = "<group>"; };
+		EFCD880B1A44D73B00E036A4 /* PortsSHT11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortsSHT11.h; sourceTree = "<group>"; };
+		EFCD880C1A44D73B00E036A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFCD880D1A44D73B00E036A4 /* RF12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RF12.cpp; sourceTree = "<group>"; };
+		EFCD880E1A44D73B00E036A4 /* RF12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RF12.h; sourceTree = "<group>"; };
+		EFCD880F1A44D73B00E036A4 /* RF12sio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RF12sio.cpp; sourceTree = "<group>"; };
+		EFCD88101A44D73B00E036A4 /* RF12sio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RF12sio.h; sourceTree = "<group>"; };
+		EFCD88111A44D73B00E036A4 /* RF69.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RF69.cpp; sourceTree = "<group>"; };
+		EFCD88121A44D73B00E036A4 /* RF69.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RF69.h; sourceTree = "<group>"; };
+		EFCD88131A44D73B00E036A4 /* RF69_avr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RF69_avr.h; sourceTree = "<group>"; };
+		EFCD88141A44D73B00E036A4 /* RF69_compat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RF69_compat.cpp; sourceTree = "<group>"; };
+		EFCD88151A44D73B00E036A4 /* RF69_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RF69_compat.h; sourceTree = "<group>"; };
 		EFD910DE19F98DB4009FDDCA /* MerlinTheCat.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MerlinTheCat.pde; sourceTree = "<group>"; };
 		EFD910DF19F98DB4009FDDCA /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
 		EFD910E019F98DB4009FDDCA /* Narcoleptic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Narcoleptic.cpp; sourceTree = "<group>"; };
@@ -3406,6 +3568,7 @@
 		AAAA141023203826AA000344 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				EFCD87021A44D73A00E036A4 /* jeelib */,
 				EFD910DB19F98DB4009FDDCA /* Narcoleptic */,
 				AAAA141023203826AA000345 /* Grove_LCD */,
 				AAAA141023203826AA000348 /* SimpleList */,
@@ -3505,6 +3668,1079 @@
 				AAAA141023203826AA000380 /* XBee.h */,
 			);
 			path = XBee;
+			sourceTree = "<group>";
+		};
+		EFCD87021A44D73A00E036A4 /* jeelib */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87031A44D73A00E036A4 /* .gitignore */,
+				EFCD87041A44D73A00E036A4 /* Doxyfile */,
+				EFCD87051A44D73A00E036A4 /* Doxylogo.png */,
+				EFCD87061A44D73A00E036A4 /* Doxymods.css */,
+				EFCD87071A44D73A00E036A4 /* examples */,
+				EFCD87FE1A44D73B00E036A4 /* intro.md */,
+				EFCD87FF1A44D73B00E036A4 /* intro_rf12.md */,
+				EFCD88001A44D73B00E036A4 /* JeeLib.h */,
+				EFCD88011A44D73B00E036A4 /* keywords.txt */,
+				EFCD88021A44D73B00E036A4 /* LICENSE */,
+				EFCD88031A44D73B00E036A4 /* Ports.cpp */,
+				EFCD88041A44D73B00E036A4 /* Ports.h */,
+				EFCD88051A44D73B00E036A4 /* PortsBMP085.cpp */,
+				EFCD88061A44D73B00E036A4 /* PortsBMP085.h */,
+				EFCD88071A44D73B00E036A4 /* PortsLCD.cpp */,
+				EFCD88081A44D73B00E036A4 /* PortsLCD.h */,
+				EFCD88091A44D73B00E036A4 /* PortsRF12.cpp */,
+				EFCD880A1A44D73B00E036A4 /* PortsSHT11.cpp */,
+				EFCD880B1A44D73B00E036A4 /* PortsSHT11.h */,
+				EFCD880C1A44D73B00E036A4 /* README.md */,
+				EFCD880D1A44D73B00E036A4 /* RF12.cpp */,
+				EFCD880E1A44D73B00E036A4 /* RF12.h */,
+				EFCD880F1A44D73B00E036A4 /* RF12sio.cpp */,
+				EFCD88101A44D73B00E036A4 /* RF12sio.h */,
+				EFCD88111A44D73B00E036A4 /* RF69.cpp */,
+				EFCD88121A44D73B00E036A4 /* RF69.h */,
+				EFCD88131A44D73B00E036A4 /* RF69_avr.h */,
+				EFCD88141A44D73B00E036A4 /* RF69_compat.cpp */,
+				EFCD88151A44D73B00E036A4 /* RF69_compat.h */,
+			);
+			path = jeelib;
+			sourceTree = "<group>";
+		};
+		EFCD87071A44D73A00E036A4 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87081A44D73A00E036A4 /* DIJN */,
+				EFCD870D1A44D73A00E036A4 /* Ports */,
+				EFCD87A01A44D73A00E036A4 /* RF12 */,
+				EFCD87F91A44D73B00E036A4 /* RTOS */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		EFCD87081A44D73A00E036A4 /* DIJN */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87091A44D73A00E036A4 /* test1 */,
+				EFCD870B1A44D73A00E036A4 /* test2 */,
+			);
+			path = DIJN;
+			sourceTree = "<group>";
+		};
+		EFCD87091A44D73A00E036A4 /* test1 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD870A1A44D73A00E036A4 /* test1.ino */,
+			);
+			path = test1;
+			sourceTree = "<group>";
+		};
+		EFCD870B1A44D73A00E036A4 /* test2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD870C1A44D73A00E036A4 /* test2.ino */,
+			);
+			path = test2;
+			sourceTree = "<group>";
+		};
+		EFCD870D1A44D73A00E036A4 /* Ports */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD870E1A44D73A00E036A4 /* accel2125_demo */,
+				EFCD87101A44D73A00E036A4 /* analog_demo */,
+				EFCD87131A44D73A00E036A4 /* bandgap */,
+				EFCD87151A44D73A00E036A4 /* blink_demo */,
+				EFCD87171A44D73A00E036A4 /* blink_ports */,
+				EFCD87191A44D73A00E036A4 /* blink_recv */,
+				EFCD871B1A44D73A00E036A4 /* blink_serial */,
+				EFCD871D1A44D73A00E036A4 /* blink_timers */,
+				EFCD871F1A44D73A00E036A4 /* blink_xmit */,
+				EFCD87211A44D73A00E036A4 /* bmp085demo */,
+				EFCD87231A44D73A00E036A4 /* bmp085recv */,
+				EFCD87251A44D73A00E036A4 /* button_demo */,
+				EFCD87271A44D73A00E036A4 /* colorDemo */,
+				EFCD87291A44D73A00E036A4 /* combi_demo */,
+				EFCD872B1A44D73A00E036A4 /* compass_demo */,
+				EFCD872D1A44D73A00E036A4 /* dcf77demo */,
+				EFCD872F1A44D73A00E036A4 /* dcmotor_demo */,
+				EFCD87311A44D73A00E036A4 /* dht_demo */,
+				EFCD87331A44D73A00E036A4 /* dimmer_demo */,
+				EFCD87351A44D73A00E036A4 /* eemem */,
+				EFCD87371A44D73A00E036A4 /* expander */,
+				EFCD87391A44D73A00E036A4 /* glcd_demo */,
+				EFCD873B1A44D73A00E036A4 /* glcdClock */,
+				EFCD873E1A44D73A00E036A4 /* glcdTracer */,
+				EFCD87401A44D73A00E036A4 /* gravity_demo */,
+				EFCD87431A44D73A00E036A4 /* h48c_demo */,
+				EFCD87451A44D73A00E036A4 /* heading_demo */,
+				EFCD87471A44D73A00E036A4 /* highside */,
+				EFCD874A1A44D73A00E036A4 /* hm55b_demo */,
+				EFCD874C1A44D73A00E036A4 /* indoor */,
+				EFCD874E1A44D73A00E036A4 /* input_demo */,
+				EFCD87501A44D73A00E036A4 /* ir_recv */,
+				EFCD87521A44D73A00E036A4 /* ir_recv_irq */,
+				EFCD87541A44D73A00E036A4 /* ir_repeater */,
+				EFCD87561A44D73A00E036A4 /* isp_capture */,
+				EFCD87581A44D73A00E036A4 /* isp_flash */,
+				EFCD875A1A44D73A00E036A4 /* isp_prepare */,
+				EFCD87661A44D73A00E036A4 /* isp_repair */,
+				EFCD87691A44D73A00E036A4 /* isp_repair2 */,
+				EFCD876C1A44D73A00E036A4 /* lcd_demo */,
+				EFCD876E1A44D73A00E036A4 /* lipoVolt */,
+				EFCD87701A44D73A00E036A4 /* lux_demo */,
+				EFCD87721A44D73A00E036A4 /* lux_poweroff */,
+				EFCD87741A44D73A00E036A4 /* memory_demo */,
+				EFCD87761A44D73A00E036A4 /* nunchuk_demo */,
+				EFCD87781A44D73A00E036A4 /* opto_demo */,
+				EFCD877A1A44D73A00E036A4 /* output_stepper */,
+				EFCD877C1A44D73A00E036A4 /* parser_demo */,
+				EFCD877E1A44D73A00E036A4 /* pir_demo */,
+				EFCD87801A44D73A00E036A4 /* powerdown_demo */,
+				EFCD87821A44D73A00E036A4 /* proximity_demo */,
+				EFCD87841A44D73A00E036A4 /* qti_demo */,
+				EFCD87861A44D73A00E036A4 /* recv433demo */,
+				EFCD87881A44D73A00E036A4 /* relay_demo */,
+				EFCD878A1A44D73A00E036A4 /* rtc_demo */,
+				EFCD878C1A44D73A00E036A4 /* schedule */,
+				EFCD878E1A44D73A00E036A4 /* sht11demo */,
+				EFCD87901A44D73A00E036A4 /* SMDdemo */,
+				EFCD87921A44D73A00E036A4 /* snapNikon */,
+				EFCD87941A44D73A00E036A4 /* snoozeBlink */,
+				EFCD87961A44D73A00E036A4 /* thermo_demo */,
+				EFCD87981A44D73A00E036A4 /* tiny50hz */,
+				EFCD879A1A44D73A00E036A4 /* toneGen */,
+				EFCD879C1A44D73A00E036A4 /* tsl230demo */,
+				EFCD879E1A44D73A00E036A4 /* uart_demo */,
+			);
+			path = Ports;
+			sourceTree = "<group>";
+		};
+		EFCD870E1A44D73A00E036A4 /* accel2125_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD870F1A44D73A00E036A4 /* accel2125_demo.ino */,
+			);
+			path = accel2125_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87101A44D73A00E036A4 /* analog_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87111A44D73A00E036A4 /* analog_demo.ino */,
+				EFCD87121A44D73A00E036A4 /* analog_demo.tcl */,
+			);
+			path = analog_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87131A44D73A00E036A4 /* bandgap */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87141A44D73A00E036A4 /* bandgap.ino */,
+			);
+			path = bandgap;
+			sourceTree = "<group>";
+		};
+		EFCD87151A44D73A00E036A4 /* blink_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87161A44D73A00E036A4 /* blink_demo.ino */,
+			);
+			path = blink_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87171A44D73A00E036A4 /* blink_ports */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87181A44D73A00E036A4 /* blink_ports.ino */,
+			);
+			path = blink_ports;
+			sourceTree = "<group>";
+		};
+		EFCD87191A44D73A00E036A4 /* blink_recv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD871A1A44D73A00E036A4 /* blink_recv.ino */,
+			);
+			path = blink_recv;
+			sourceTree = "<group>";
+		};
+		EFCD871B1A44D73A00E036A4 /* blink_serial */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD871C1A44D73A00E036A4 /* blink_serial.ino */,
+			);
+			path = blink_serial;
+			sourceTree = "<group>";
+		};
+		EFCD871D1A44D73A00E036A4 /* blink_timers */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD871E1A44D73A00E036A4 /* blink_timers.ino */,
+			);
+			path = blink_timers;
+			sourceTree = "<group>";
+		};
+		EFCD871F1A44D73A00E036A4 /* blink_xmit */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87201A44D73A00E036A4 /* blink_xmit.ino */,
+			);
+			path = blink_xmit;
+			sourceTree = "<group>";
+		};
+		EFCD87211A44D73A00E036A4 /* bmp085demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87221A44D73A00E036A4 /* bmp085demo.ino */,
+			);
+			path = bmp085demo;
+			sourceTree = "<group>";
+		};
+		EFCD87231A44D73A00E036A4 /* bmp085recv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87241A44D73A00E036A4 /* bmp085recv.ino */,
+			);
+			path = bmp085recv;
+			sourceTree = "<group>";
+		};
+		EFCD87251A44D73A00E036A4 /* button_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87261A44D73A00E036A4 /* button_demo.ino */,
+			);
+			path = button_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87271A44D73A00E036A4 /* colorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87281A44D73A00E036A4 /* colorDemo.ino */,
+			);
+			path = colorDemo;
+			sourceTree = "<group>";
+		};
+		EFCD87291A44D73A00E036A4 /* combi_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD872A1A44D73A00E036A4 /* combi_demo.ino */,
+			);
+			path = combi_demo;
+			sourceTree = "<group>";
+		};
+		EFCD872B1A44D73A00E036A4 /* compass_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD872C1A44D73A00E036A4 /* compass_demo.ino */,
+			);
+			path = compass_demo;
+			sourceTree = "<group>";
+		};
+		EFCD872D1A44D73A00E036A4 /* dcf77demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD872E1A44D73A00E036A4 /* dcf77demo.ino */,
+			);
+			path = dcf77demo;
+			sourceTree = "<group>";
+		};
+		EFCD872F1A44D73A00E036A4 /* dcmotor_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87301A44D73A00E036A4 /* dcmotor_demo.ino */,
+			);
+			path = dcmotor_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87311A44D73A00E036A4 /* dht_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87321A44D73A00E036A4 /* dht_demo.ino */,
+			);
+			path = dht_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87331A44D73A00E036A4 /* dimmer_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87341A44D73A00E036A4 /* dimmer_demo.ino */,
+			);
+			path = dimmer_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87351A44D73A00E036A4 /* eemem */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87361A44D73A00E036A4 /* eemem.ino */,
+			);
+			path = eemem;
+			sourceTree = "<group>";
+		};
+		EFCD87371A44D73A00E036A4 /* expander */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87381A44D73A00E036A4 /* expander.ino */,
+			);
+			path = expander;
+			sourceTree = "<group>";
+		};
+		EFCD87391A44D73A00E036A4 /* glcd_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD873A1A44D73A00E036A4 /* glcd_demo.ino */,
+			);
+			path = glcd_demo;
+			sourceTree = "<group>";
+		};
+		EFCD873B1A44D73A00E036A4 /* glcdClock */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD873C1A44D73A00E036A4 /* digits.h */,
+				EFCD873D1A44D73A00E036A4 /* glcdClock.ino */,
+			);
+			path = glcdClock;
+			sourceTree = "<group>";
+		};
+		EFCD873E1A44D73A00E036A4 /* glcdTracer */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD873F1A44D73A00E036A4 /* glcdTracer.ino */,
+			);
+			path = glcdTracer;
+			sourceTree = "<group>";
+		};
+		EFCD87401A44D73A00E036A4 /* gravity_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87411A44D73A00E036A4 /* gravity_demo.ino */,
+				EFCD87421A44D73A00E036A4 /* gravity_demo.tcl */,
+			);
+			path = gravity_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87431A44D73A00E036A4 /* h48c_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87441A44D73A00E036A4 /* h48c_demo.ino */,
+			);
+			path = h48c_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87451A44D73A00E036A4 /* heading_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87461A44D73A00E036A4 /* heading_demo.ino */,
+			);
+			path = heading_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87471A44D73A00E036A4 /* highside */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87481A44D73A00E036A4 /* highside.ino */,
+				EFCD87491A44D73A00E036A4 /* highside.tcl */,
+			);
+			path = highside;
+			sourceTree = "<group>";
+		};
+		EFCD874A1A44D73A00E036A4 /* hm55b_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD874B1A44D73A00E036A4 /* hm55b_demo.ino */,
+			);
+			path = hm55b_demo;
+			sourceTree = "<group>";
+		};
+		EFCD874C1A44D73A00E036A4 /* indoor */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD874D1A44D73A00E036A4 /* indoor.ino */,
+			);
+			path = indoor;
+			sourceTree = "<group>";
+		};
+		EFCD874E1A44D73A00E036A4 /* input_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD874F1A44D73A00E036A4 /* input_demo.ino */,
+			);
+			path = input_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87501A44D73A00E036A4 /* ir_recv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87511A44D73A00E036A4 /* ir_recv.ino */,
+			);
+			path = ir_recv;
+			sourceTree = "<group>";
+		};
+		EFCD87521A44D73A00E036A4 /* ir_recv_irq */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87531A44D73A00E036A4 /* ir_recv_irq.ino */,
+			);
+			path = ir_recv_irq;
+			sourceTree = "<group>";
+		};
+		EFCD87541A44D73A00E036A4 /* ir_repeater */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87551A44D73A00E036A4 /* ir_repeater.ino */,
+			);
+			path = ir_repeater;
+			sourceTree = "<group>";
+		};
+		EFCD87561A44D73A00E036A4 /* isp_capture */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87571A44D73A00E036A4 /* isp_capture.ino */,
+			);
+			path = isp_capture;
+			sourceTree = "<group>";
+		};
+		EFCD87581A44D73A00E036A4 /* isp_flash */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87591A44D73A00E036A4 /* isp_flash.ino */,
+			);
+			path = isp_flash;
+			sourceTree = "<group>";
+		};
+		EFCD875A1A44D73A00E036A4 /* isp_prepare */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD875B1A44D73A00E036A4 /* ATmegaBOOT_168_atmega328.hex */,
+				EFCD875C1A44D73A00E036A4 /* Blink.cpp.hex */,
+				EFCD875D1A44D73A00E036A4 /* data_blink.h */,
+				EFCD875E1A44D73A00E036A4 /* data_rf12demo.h */,
+				EFCD875F1A44D73A00E036A4 /* hex2c.tcl */,
+				EFCD87601A44D73A00E036A4 /* isp_prepare.ino */,
+				EFCD87611A44D73A00E036A4 /* opti_blink.h */,
+				EFCD87621A44D73A00E036A4 /* opti_rf12demo.h */,
+				EFCD87631A44D73A00E036A4 /* optiboot_atmega328.hex */,
+				EFCD87641A44D73A00E036A4 /* optiboot_atmega328_1s.hex */,
+				EFCD87651A44D73A00E036A4 /* RF12demo.cpp.hex */,
+			);
+			path = isp_prepare;
+			sourceTree = "<group>";
+		};
+		EFCD87661A44D73A00E036A4 /* isp_repair */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87671A44D73A00E036A4 /* data.h */,
+				EFCD87681A44D73A00E036A4 /* isp_repair.ino */,
+			);
+			path = isp_repair;
+			sourceTree = "<group>";
+		};
+		EFCD87691A44D73A00E036A4 /* isp_repair2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD876A1A44D73A00E036A4 /* data.h */,
+				EFCD876B1A44D73A00E036A4 /* isp_repair2.ino */,
+			);
+			path = isp_repair2;
+			sourceTree = "<group>";
+		};
+		EFCD876C1A44D73A00E036A4 /* lcd_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD876D1A44D73A00E036A4 /* lcd_demo.ino */,
+			);
+			path = lcd_demo;
+			sourceTree = "<group>";
+		};
+		EFCD876E1A44D73A00E036A4 /* lipoVolt */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD876F1A44D73A00E036A4 /* lipoVolt.ino */,
+			);
+			path = lipoVolt;
+			sourceTree = "<group>";
+		};
+		EFCD87701A44D73A00E036A4 /* lux_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87711A44D73A00E036A4 /* lux_demo.ino */,
+			);
+			path = lux_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87721A44D73A00E036A4 /* lux_poweroff */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87731A44D73A00E036A4 /* lux_poweroff.ino */,
+			);
+			path = lux_poweroff;
+			sourceTree = "<group>";
+		};
+		EFCD87741A44D73A00E036A4 /* memory_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87751A44D73A00E036A4 /* memory_demo.ino */,
+			);
+			path = memory_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87761A44D73A00E036A4 /* nunchuk_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87771A44D73A00E036A4 /* nunchuk_demo.ino */,
+			);
+			path = nunchuk_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87781A44D73A00E036A4 /* opto_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87791A44D73A00E036A4 /* opto_demo.ino */,
+			);
+			path = opto_demo;
+			sourceTree = "<group>";
+		};
+		EFCD877A1A44D73A00E036A4 /* output_stepper */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD877B1A44D73A00E036A4 /* output_stepper.ino */,
+			);
+			path = output_stepper;
+			sourceTree = "<group>";
+		};
+		EFCD877C1A44D73A00E036A4 /* parser_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD877D1A44D73A00E036A4 /* parser_demo.ino */,
+			);
+			path = parser_demo;
+			sourceTree = "<group>";
+		};
+		EFCD877E1A44D73A00E036A4 /* pir_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD877F1A44D73A00E036A4 /* pir_demo.ino */,
+			);
+			path = pir_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87801A44D73A00E036A4 /* powerdown_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87811A44D73A00E036A4 /* powerdown_demo.ino */,
+			);
+			path = powerdown_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87821A44D73A00E036A4 /* proximity_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87831A44D73A00E036A4 /* proximity_demo.ino */,
+			);
+			path = proximity_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87841A44D73A00E036A4 /* qti_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87851A44D73A00E036A4 /* qti_demo.ino */,
+			);
+			path = qti_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87861A44D73A00E036A4 /* recv433demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87871A44D73A00E036A4 /* recv433demo.ino */,
+			);
+			path = recv433demo;
+			sourceTree = "<group>";
+		};
+		EFCD87881A44D73A00E036A4 /* relay_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87891A44D73A00E036A4 /* relay_demo.ino */,
+			);
+			path = relay_demo;
+			sourceTree = "<group>";
+		};
+		EFCD878A1A44D73A00E036A4 /* rtc_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD878B1A44D73A00E036A4 /* rtc_demo.ino */,
+			);
+			path = rtc_demo;
+			sourceTree = "<group>";
+		};
+		EFCD878C1A44D73A00E036A4 /* schedule */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD878D1A44D73A00E036A4 /* schedule.ino */,
+			);
+			path = schedule;
+			sourceTree = "<group>";
+		};
+		EFCD878E1A44D73A00E036A4 /* sht11demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD878F1A44D73A00E036A4 /* sht11demo.ino */,
+			);
+			path = sht11demo;
+			sourceTree = "<group>";
+		};
+		EFCD87901A44D73A00E036A4 /* SMDdemo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87911A44D73A00E036A4 /* SMDdemo.ino */,
+			);
+			path = SMDdemo;
+			sourceTree = "<group>";
+		};
+		EFCD87921A44D73A00E036A4 /* snapNikon */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87931A44D73A00E036A4 /* snapNikon.ino */,
+			);
+			path = snapNikon;
+			sourceTree = "<group>";
+		};
+		EFCD87941A44D73A00E036A4 /* snoozeBlink */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87951A44D73A00E036A4 /* snoozeBlink.ino */,
+			);
+			path = snoozeBlink;
+			sourceTree = "<group>";
+		};
+		EFCD87961A44D73A00E036A4 /* thermo_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87971A44D73A00E036A4 /* thermo_demo.ino */,
+			);
+			path = thermo_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87981A44D73A00E036A4 /* tiny50hz */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87991A44D73A00E036A4 /* tiny50hz.ino */,
+			);
+			path = tiny50hz;
+			sourceTree = "<group>";
+		};
+		EFCD879A1A44D73A00E036A4 /* toneGen */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD879B1A44D73A00E036A4 /* toneGen.ino */,
+			);
+			path = toneGen;
+			sourceTree = "<group>";
+		};
+		EFCD879C1A44D73A00E036A4 /* tsl230demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD879D1A44D73A00E036A4 /* tsl230demo.ino */,
+			);
+			path = tsl230demo;
+			sourceTree = "<group>";
+		};
+		EFCD879E1A44D73A00E036A4 /* uart_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD879F1A44D73A00E036A4 /* uart_demo.ino */,
+			);
+			path = uart_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87A01A44D73A00E036A4 /* RF12 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87A11A44D73A00E036A4 /* announcer */,
+				EFCD87A31A44D73A00E036A4 /* crypRecv */,
+				EFCD87A51A44D73A00E036A4 /* crypSend */,
+				EFCD87A71A44D73A00E036A4 /* emt7110_bridge */,
+				EFCD87A91A44D73A00E036A4 /* fs20demo */,
+				EFCD87AB1A44D73A00E036A4 /* groupRelay */,
+				EFCD87AD1A44D73B00E036A4 /* homePower */,
+				EFCD87AF1A44D73B00E036A4 /* jouleTest */,
+				EFCD87B11A44D73B00E036A4 /* kaku_demo */,
+				EFCD87B31A44D73B00E036A4 /* ledNode */,
+				EFCD87B51A44D73B00E036A4 /* ookRelay2 */,
+				EFCD87B91A44D73B00E036A4 /* ookScope2 */,
+				EFCD87BB1A44D73B00E036A4 /* otRelay */,
+				EFCD87BD1A44D73B00E036A4 /* p1scanner */,
+				EFCD87BF1A44D73B00E036A4 /* packetBuf */,
+				EFCD87C11A44D73B00E036A4 /* pingPong */,
+				EFCD87C31A44D73B00E036A4 /* pollee */,
+				EFCD87C51A44D73B00E036A4 /* poller */,
+				EFCD87C71A44D73B00E036A4 /* powerACS */,
+				EFCD87C91A44D73B00E036A4 /* radioBlip */,
+				EFCD87CC1A44D73B00E036A4 /* radioBlip2 */,
+				EFCD87CE1A44D73B00E036A4 /* RF12_1byte */,
+				EFCD87D01A44D73B00E036A4 /* rf12cmd */,
+				EFCD87D21A44D73B00E036A4 /* RF12demo */,
+				EFCD87D81A44D73B00E036A4 /* RF12demoBlock */,
+				EFCD87DB1A44D73B00E036A4 /* rf12serial */,
+				EFCD87DD1A44D73B00E036A4 /* rf12stream */,
+				EFCD87DF1A44D73B00E036A4 /* RFM12B_OOK */,
+				EFCD87E11A44D73B00E036A4 /* rfRangeRX */,
+				EFCD87E31A44D73B00E036A4 /* rfRangeTX */,
+				EFCD87E51A44D73B00E036A4 /* rgbRemote */,
+				EFCD87E71A44D73B00E036A4 /* roomNode */,
+				EFCD87EA1A44D73B00E036A4 /* slowLogger */,
+				EFCD87EC1A44D73B00E036A4 /* smaRelay */,
+				EFCD87EF1A44D73B00E036A4 /* syncRecv */,
+				EFCD87F11A44D73B00E036A4 /* tickerLed */,
+				EFCD87F31A44D73B00E036A4 /* timedRecv */,
+				EFCD87F51A44D73B00E036A4 /* timedSend */,
+				EFCD87F71A44D73B00E036A4 /* tinyTest */,
+			);
+			path = RF12;
+			sourceTree = "<group>";
+		};
+		EFCD87A11A44D73A00E036A4 /* announcer */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87A21A44D73A00E036A4 /* announcer.ino */,
+			);
+			path = announcer;
+			sourceTree = "<group>";
+		};
+		EFCD87A31A44D73A00E036A4 /* crypRecv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87A41A44D73A00E036A4 /* crypRecv.ino */,
+			);
+			path = crypRecv;
+			sourceTree = "<group>";
+		};
+		EFCD87A51A44D73A00E036A4 /* crypSend */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87A61A44D73A00E036A4 /* crypSend.ino */,
+			);
+			path = crypSend;
+			sourceTree = "<group>";
+		};
+		EFCD87A71A44D73A00E036A4 /* emt7110_bridge */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87A81A44D73A00E036A4 /* emt7110_bridge.ino */,
+			);
+			path = emt7110_bridge;
+			sourceTree = "<group>";
+		};
+		EFCD87A91A44D73A00E036A4 /* fs20demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87AA1A44D73A00E036A4 /* fs20demo.ino */,
+			);
+			path = fs20demo;
+			sourceTree = "<group>";
+		};
+		EFCD87AB1A44D73A00E036A4 /* groupRelay */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87AC1A44D73B00E036A4 /* groupRelay.ino */,
+			);
+			path = groupRelay;
+			sourceTree = "<group>";
+		};
+		EFCD87AD1A44D73B00E036A4 /* homePower */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87AE1A44D73B00E036A4 /* homePower.ino */,
+			);
+			path = homePower;
+			sourceTree = "<group>";
+		};
+		EFCD87AF1A44D73B00E036A4 /* jouleTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87B01A44D73B00E036A4 /* jouleTest.ino */,
+			);
+			path = jouleTest;
+			sourceTree = "<group>";
+		};
+		EFCD87B11A44D73B00E036A4 /* kaku_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87B21A44D73B00E036A4 /* kaku_demo.ino */,
+			);
+			path = kaku_demo;
+			sourceTree = "<group>";
+		};
+		EFCD87B31A44D73B00E036A4 /* ledNode */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87B41A44D73B00E036A4 /* ledNode.ino */,
+			);
+			path = ledNode;
+			sourceTree = "<group>";
+		};
+		EFCD87B51A44D73B00E036A4 /* ookRelay2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87B61A44D73B00E036A4 /* decoders.h */,
+				EFCD87B71A44D73B00E036A4 /* ookRelay2.ino */,
+				EFCD87B81A44D73B00E036A4 /* ookRelay2.tcl */,
+			);
+			path = ookRelay2;
+			sourceTree = "<group>";
+		};
+		EFCD87B91A44D73B00E036A4 /* ookScope2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87BA1A44D73B00E036A4 /* ookScope2.ino */,
+			);
+			path = ookScope2;
+			sourceTree = "<group>";
+		};
+		EFCD87BB1A44D73B00E036A4 /* otRelay */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87BC1A44D73B00E036A4 /* otRelay.ino */,
+			);
+			path = otRelay;
+			sourceTree = "<group>";
+		};
+		EFCD87BD1A44D73B00E036A4 /* p1scanner */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87BE1A44D73B00E036A4 /* p1scanner.ino */,
+			);
+			path = p1scanner;
+			sourceTree = "<group>";
+		};
+		EFCD87BF1A44D73B00E036A4 /* packetBuf */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87C01A44D73B00E036A4 /* packetBuf.ino */,
+			);
+			path = packetBuf;
+			sourceTree = "<group>";
+		};
+		EFCD87C11A44D73B00E036A4 /* pingPong */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87C21A44D73B00E036A4 /* pingPong.ino */,
+			);
+			path = pingPong;
+			sourceTree = "<group>";
+		};
+		EFCD87C31A44D73B00E036A4 /* pollee */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87C41A44D73B00E036A4 /* pollee.ino */,
+			);
+			path = pollee;
+			sourceTree = "<group>";
+		};
+		EFCD87C51A44D73B00E036A4 /* poller */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87C61A44D73B00E036A4 /* poller.ino */,
+			);
+			path = poller;
+			sourceTree = "<group>";
+		};
+		EFCD87C71A44D73B00E036A4 /* powerACS */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87C81A44D73B00E036A4 /* powerACS.ino */,
+			);
+			path = powerACS;
+			sourceTree = "<group>";
+		};
+		EFCD87C91A44D73B00E036A4 /* radioBlip */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87CA1A44D73B00E036A4 /* radioBlip.ino */,
+				EFCD87CB1A44D73B00E036A4 /* radioBlip.tcl */,
+			);
+			path = radioBlip;
+			sourceTree = "<group>";
+		};
+		EFCD87CC1A44D73B00E036A4 /* radioBlip2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87CD1A44D73B00E036A4 /* radioBlip2.ino */,
+			);
+			path = radioBlip2;
+			sourceTree = "<group>";
+		};
+		EFCD87CE1A44D73B00E036A4 /* RF12_1byte */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87CF1A44D73B00E036A4 /* RF12_1byte.ino */,
+			);
+			path = RF12_1byte;
+			sourceTree = "<group>";
+		};
+		EFCD87D01A44D73B00E036A4 /* rf12cmd */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87D11A44D73B00E036A4 /* rf12cmd.ino */,
+			);
+			path = rf12cmd;
+			sourceTree = "<group>";
+		};
+		EFCD87D21A44D73B00E036A4 /* RF12demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87D31A44D73B00E036A4 /* dataflash.h */,
+				EFCD87D41A44D73B00E036A4 /* Makefile */,
+				EFCD87D51A44D73B00E036A4 /* README */,
+				EFCD87D61A44D73B00E036A4 /* RF12demo.ino */,
+				EFCD87D71A44D73B00E036A4 /* RF12demo.tcl */,
+			);
+			path = RF12demo;
+			sourceTree = "<group>";
+		};
+		EFCD87D81A44D73B00E036A4 /* RF12demoBlock */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87D91A44D73B00E036A4 /* dataflash.h */,
+				EFCD87DA1A44D73B00E036A4 /* RF12demoBlock.ino */,
+			);
+			path = RF12demoBlock;
+			sourceTree = "<group>";
+		};
+		EFCD87DB1A44D73B00E036A4 /* rf12serial */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87DC1A44D73B00E036A4 /* rf12serial.ino */,
+			);
+			path = rf12serial;
+			sourceTree = "<group>";
+		};
+		EFCD87DD1A44D73B00E036A4 /* rf12stream */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87DE1A44D73B00E036A4 /* rf12stream.ino */,
+			);
+			path = rf12stream;
+			sourceTree = "<group>";
+		};
+		EFCD87DF1A44D73B00E036A4 /* RFM12B_OOK */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87E01A44D73B00E036A4 /* RFM12B_OOK.ino */,
+			);
+			path = RFM12B_OOK;
+			sourceTree = "<group>";
+		};
+		EFCD87E11A44D73B00E036A4 /* rfRangeRX */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87E21A44D73B00E036A4 /* rfRangeRX.ino */,
+			);
+			path = rfRangeRX;
+			sourceTree = "<group>";
+		};
+		EFCD87E31A44D73B00E036A4 /* rfRangeTX */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87E41A44D73B00E036A4 /* rfRangeTX.ino */,
+			);
+			path = rfRangeTX;
+			sourceTree = "<group>";
+		};
+		EFCD87E51A44D73B00E036A4 /* rgbRemote */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87E61A44D73B00E036A4 /* rgbRemote.ino */,
+			);
+			path = rgbRemote;
+			sourceTree = "<group>";
+		};
+		EFCD87E71A44D73B00E036A4 /* roomNode */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87E81A44D73B00E036A4 /* roomNode.ino */,
+				EFCD87E91A44D73B00E036A4 /* roomNode.tcl */,
+			);
+			path = roomNode;
+			sourceTree = "<group>";
+		};
+		EFCD87EA1A44D73B00E036A4 /* slowLogger */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87EB1A44D73B00E036A4 /* slowLogger.ino */,
+			);
+			path = slowLogger;
+			sourceTree = "<group>";
+		};
+		EFCD87EC1A44D73B00E036A4 /* smaRelay */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87ED1A44D73B00E036A4 /* smaComms.h */,
+				EFCD87EE1A44D73B00E036A4 /* smaRelay.ino */,
+			);
+			path = smaRelay;
+			sourceTree = "<group>";
+		};
+		EFCD87EF1A44D73B00E036A4 /* syncRecv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87F01A44D73B00E036A4 /* syncRecv.ino */,
+			);
+			path = syncRecv;
+			sourceTree = "<group>";
+		};
+		EFCD87F11A44D73B00E036A4 /* tickerLed */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87F21A44D73B00E036A4 /* tickerLed.ino */,
+			);
+			path = tickerLed;
+			sourceTree = "<group>";
+		};
+		EFCD87F31A44D73B00E036A4 /* timedRecv */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87F41A44D73B00E036A4 /* timedRecv.ino */,
+			);
+			path = timedRecv;
+			sourceTree = "<group>";
+		};
+		EFCD87F51A44D73B00E036A4 /* timedSend */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87F61A44D73B00E036A4 /* timedSend.ino */,
+			);
+			path = timedSend;
+			sourceTree = "<group>";
+		};
+		EFCD87F71A44D73B00E036A4 /* tinyTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87F81A44D73B00E036A4 /* tinyTest.ino */,
+			);
+			path = tinyTest;
+			sourceTree = "<group>";
+		};
+		EFCD87F91A44D73B00E036A4 /* RTOS */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87FA1A44D73B00E036A4 /* chiBlink */,
+				EFCD87FC1A44D73B00E036A4 /* powerUse */,
+			);
+			path = RTOS;
+			sourceTree = "<group>";
+		};
+		EFCD87FA1A44D73B00E036A4 /* chiBlink */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87FB1A44D73B00E036A4 /* chiBlink.ino */,
+			);
+			path = chiBlink;
+			sourceTree = "<group>";
+		};
+		EFCD87FC1A44D73B00E036A4 /* powerUse */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD87FD1A44D73B00E036A4 /* powerUse.ino */,
+			);
+			path = powerUse;
 			sourceTree = "<group>";
 		};
 		EFD910DB19F98DB4009FDDCA /* Narcoleptic */ = {

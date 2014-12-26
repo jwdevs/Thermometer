@@ -33,7 +33,7 @@ APP_LIBS_LIST = Wire
 #
 # USER = Grove_LCD SimpleList StandardCplusplus
 #
-USER_LIBS_LIST = TSIC XBee Narcoleptic
+USER_LIBS_LIST = TSIC XBee Narcoleptic jeelib
 
 # List local libraries here
 # default = empty = all

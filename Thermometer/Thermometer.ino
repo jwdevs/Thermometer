@@ -25,12 +25,9 @@
  This example code is in the public domain.
  
  */
-#ifndef F_CPU
-#define F_CPU 8000000UL
-#endif
-
 #include <SoftwareSerial.h>
-#include <Narcoleptic.h>
+#include  <JeeLib.h>// Low power functions library
+#include <math.h>
 SoftwareSerial xbee(6, 7); // RX, TX
 
 //Temperature sensor
@@ -38,7 +35,8 @@ SoftwareSerial xbee(6, 7); // RX, TX
 
 #define TEMP_VCC 4
 #define TEMP_SIG 5
-#define INVALID_TEMP 255
+#define INVALID_TEMP -255
+#define XBEE_SLEEP_PIN 2
 // instantiate the library, representing the sensor
 TSIC Sensor1(TEMP_SIG,TEMP_VCC);    // Signalpin, VCCpin
 //TSIC Sensor2(5, 2);  // Signalpin, VCCpin, NOTE: we can use the same VCCpin to power both sensors
@@ -46,15 +44,22 @@ TSIC Sensor1(TEMP_SIG,TEMP_VCC);    // Signalpin, VCCpin
 uint16_t temperature = 0;
 float tempInC = 0;
 
+ISR(WDT_vect) { Sleepy::watchdogEvent(); } // Setup the watchdog
 
 float readTemp() {
-    float tempMean = 0;
-    if (Sensor1.getTemperture(&temperature)) {
-        return Sensor1.calc_Celsius(&temperature);
-    } else {
-        return INVALID_TEMP;
+    float temp = 0;
+    int retry = 0;
+    bool ok = false;
+    while(retry++<5 && !(ok=Sensor1.getTemperture(&temperature)));
+    if (ok) {
+        temp = Sensor1.calc_Celsius(&temperature);
+        if(temp > -10 && temp < 40) {
+            return temp;
+        }
     }
+    return INVALID_TEMP;
 }
+
 
 void setup()
 {
@@ -63,31 +68,47 @@ void setup()
     // set the data rate for the SoftwareSerial port
     xbee.begin(9600);
     pinMode(8, OUTPUT);
+    pinMode(XBEE_SLEEP_PIN,OUTPUT);
+    digitalWrite(XBEE_SLEEP_PIN, HIGH);
 }
 
 void sendMessage(float temp) {
+    digitalWrite(XBEE_SLEEP_PIN, LOW);
+    digitalWrite(8,HIGH);
+    delay(50);
     xbee.print(F("{1;1;"));
     xbee.print(temp);
     xbee.print(F("}"));
+    
+     delay(50);
+    digitalWrite(8, LOW);
+    digitalWrite(XBEE_SLEEP_PIN, HIGH);
 }
-bool diodeOn = false;
 
+bool diodeOn = false;
+float lastTemp = 20;
 void loop() // run over and over
 {
+    
+    
     tempInC = readTemp();
+    //tempInC = 21;
+    if(tempInC != INVALID_TEMP && fabsf(tempInC - lastTemp) < 15.0) {
+        sendMessage(tempInC);
+        lastTemp = tempInC;
+    }
     //Serial.println("Temperature read:");
     //Serial.println(tempInC++);
-    sendMessage(tempInC);
-    if(diodeOn == true) {
+    
+    /*if(diodeOn == true) {
         digitalWrite(8, LOW);
         diodeOn = false;
     } else {
         digitalWrite(8,HIGH);
         diodeOn = true;
-    }
-    //if(tempInC != INVALID_TEMP && tempInC < 40 && tempInC > -40) {
-        //xbee.print(tempInC);
-    //}
-    //Narcoleptic.delay(1000);
-    delay(1000);
+    }*/
+    Sleepy::loseSomeTime(30000);
+    //Sleepy::loseSomeTime(1000);
+    //Narcoleptic.delay(5000);
+    //delay(5000);
 }
