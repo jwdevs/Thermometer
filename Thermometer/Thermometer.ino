@@ -32,13 +32,13 @@ SoftwareSerial xbee(6, 7); // RX, TX
 
 //Temperature sensor
 #include "TSIC.h"       // include the library
-
+#include "RingBuffer.h"
 #define TEMP_VCC 4
 #define TEMP_SIG 5
-#define INVALID_TEMP -255
 #define XBEE_SLEEP_PIN 2
+#define RETRY_COUNT 10
 // instantiate the library, representing the sensor
-TSIC Sensor1(TEMP_SIG,TEMP_VCC);    // Signalpin, VCCpin
+TSIC tempSensor(TEMP_SIG,TEMP_VCC);    // Signalpin, VCCpin
 //TSIC Sensor2(5, 2);  // Signalpin, VCCpin, NOTE: we can use the same VCCpin to power both sensors
 
 uint16_t temperature = 0;
@@ -46,18 +46,46 @@ float tempInC = 0;
 
 ISR(WDT_vect) { Sleepy::watchdogEvent(); } // Setup the watchdog
 
+RingBuffer<float, byte, 20> readings;
+
+
+float getMeanTemperature() {
+    float sum = 0;
+    if( !readings.isEmpty() ) {
+        for (byte i = 0; i < readings.size(); ++i){
+            sum += readings[i];
+        }
+        return sum / readings.size();
+    } else {
+        return NAN;
+    }
+}
+
+void addValue(float temp) {
+    if(readings.isFull()) {
+        float temp = 0;
+        readings.poll(temp);
+    }
+    readings.offer(temp);
+}
+
+
 float readTemp() {
     float temp = 0;
     int retry = 0;
-    bool ok = false;
-    while(retry++<5 && !(ok=Sensor1.getTemperture(&temperature)));
-    if (ok) {
-        temp = Sensor1.calc_Celsius(&temperature);
-        if(temp > -10 && temp < 40) {
-            return temp;
+    float lastTemp = getMeanTemperature();
+    
+    while(retry++<RETRY_COUNT) {
+        if(tempSensor.getTemperture(&temperature)) {
+            temp = tempSensor.calc_Celsius(&temperature);
+            if(temp > -30 && temp < 60 && (isnan(lastTemp) || fabsf(temp - lastTemp) < 10)) {
+                addValue(temp);
+                return temp;
+            }
         }
-    }
-    return INVALID_TEMP;
+        delay(10);
+    };
+    return NAN;
 }
 
 
@@ -79,36 +107,25 @@ void sendMessage(float temp) {
     xbee.print(F("{1;1;"));
     xbee.print(temp);
     xbee.print(F("}"));
-    
-     delay(50);
+    delay(50);
     digitalWrite(8, LOW);
     digitalWrite(XBEE_SLEEP_PIN, HIGH);
 }
 
 bool diodeOn = false;
-float lastTemp = 20;
+
 void loop() // run over and over
 {
-    
-    
     tempInC = readTemp();
-    //tempInC = 21;
-    if(tempInC != INVALID_TEMP && fabsf(tempInC - lastTemp) < 15.0) {
+    if(!isnan(tempInC)) {
         sendMessage(tempInC);
-        lastTemp = tempInC;
-    }
-    //Serial.println("Temperature read:");
-    //Serial.println(tempInC++);
-    
-    /*if(diodeOn == true) {
-        digitalWrite(8, LOW);
-        diodeOn = false;
     } else {
-        digitalWrite(8,HIGH);
-        diodeOn = true;
-    }*/
+        for(int i = 0; i < 3; ++i) {
+            digitalWrite(8,HIGH);
+            delay(100);
+            digitalWrite(8,LOW);
+            delay(100);
+        }
+    }
     Sleepy::loseSomeTime(30000);
-    //Sleepy::loseSomeTime(1000);
-    //Narcoleptic.delay(5000);
-    //delay(5000);
 }

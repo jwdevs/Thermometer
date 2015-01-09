@@ -1389,6 +1389,7 @@
 		AAAA141023203826AA00037D /* TSIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSIC.h; sourceTree = "<group>"; };
 		AAAA141023203826AA00037F /* XBee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XBee.cpp; sourceTree = "<group>"; };
 		AAAA141023203826AA000380 /* XBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBee.h; sourceTree = "<group>"; };
+		EF01243A1A5F2A2D000A36F2 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
 		EFCD87031A44D73A00E036A4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EFCD87041A44D73A00E036A4 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		EFCD87051A44D73A00E036A4 /* Doxylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doxylogo.png; sourceTree = "<group>"; };
@@ -3568,6 +3569,7 @@
 		AAAA141023203826AA000344 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				EF0124391A5F2A2D000A36F2 /* RingBuffer */,
 				EFCD87021A44D73A00E036A4 /* jeelib */,
 				EFD910DB19F98DB4009FDDCA /* Narcoleptic */,
 				AAAA141023203826AA000345 /* Grove_LCD */,
@@ -3668,6 +3670,14 @@
 				AAAA141023203826AA000380 /* XBee.h */,
 			);
 			path = XBee;
+			sourceTree = "<group>";
+		};
+		EF0124391A5F2A2D000A36F2 /* RingBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				EF01243A1A5F2A2D000A36F2 /* RingBuffer.h */,
+			);
+			path = RingBuffer;
 			sourceTree = "<group>";
 		};
 		EFCD87021A44D73A00E036A4 /* jeelib */ = {
